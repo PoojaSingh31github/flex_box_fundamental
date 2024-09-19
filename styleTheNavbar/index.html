@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai Navbar</title>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        gap: 10px;
+      }
+      .sign_in_button {
+        display: block;
+        padding-inline: 8px;
+        border: 1px solid rgb(243, 122, 122);
+        border-radius:5px ;
+        color: rgb(243, 122, 122);
+        height: 48px;
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+      }
+      .callback {
+        background: #f2f6ff;
+        border-radius: 32px;
+        border: 1px solid #5d8de9;
+      }
+      .Refer {
+        background: #f2f6ff;
+        border-radius: 32px;
+        border: 1px solid #e9af5d;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .lists {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div>
+          <img
+            src="https://masaischool.com/learn/images/navbar/logo.svg"
+            alt="masai_logo"
+          />
+        </div>
+        <div style="display: flex; float: right">
+          <div class="lists" style="font-weight: 600; font-size: 17px; gap: 20px;">
+            <li><a href="">course</a></li>
+            <li><a href="">course</a></li>
+            <li><a href="">course</a></li>
+            <li><a href="">course</a></li>
+            <li><a href="">course</a></li>
+          </div>
+
+          <div style="gap: 20px; display: flex; align-items: center;">
+            <button class="Refer" >
+            <img
+              src="https://masaischool.com/learn/images/referral/coin.svg"
+              alt="Refer"
+            /> Refer and Earn
+          </button>
+          <button class="callback">
+            <img
+              src="https://masaischool.com/learn/images/navbar/callback.svg"
+              alt="callback"
+            />
+            Request CallBack
+          </button>
+          <button class="sign_in_button">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
